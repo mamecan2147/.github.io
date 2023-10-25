@@ -6,15 +6,14 @@
 </head>
 <body>
   <div class="button">
-    <a href="https://github.com/your-username">
+    <a href="https://github.com/mamecan2147">
       <h1>GitHub'ımı ziyaret edin</h1>
     </a>
   </div>
 
   <script>
     function goToGitHub() {
-      window.location.href = "https://github.com/your-username";
-    }
+      window.location.href = "https://github.com/mamecan2147}
 
     document.querySelector(".button").onclick = goToGitHub;
   </script>
