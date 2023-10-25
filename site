@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <title>GitHub Butonu</title>
+</head>
+<body>
+  <div class="button">
+    <a href="https://github.com/your-username">
+      <h1>GitHub'ımı ziyaret edin</h1>
+    </a>
+  </div>
+
+  <script>
+    function goToGitHub() {
+      window.location.href = "https://github.com/your-username";
+    }
+
+    document.querySelector(".button").onclick = goToGitHub;
+  </script>
+</body>
+</html>
